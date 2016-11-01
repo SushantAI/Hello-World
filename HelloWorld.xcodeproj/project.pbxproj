@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F0140E871DA3EF9D000AB73A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0140E861DA3EF9D000AB73A /* main.m */; };
+		F02C2F2B1DAE929A00CA211F /* Mammal.m in Sources */ = {isa = PBXBuildFile; fileRef = F02C2F2A1DAE929A00CA211F /* Mammal.m */; };
+		F04313F31DB662B700C79FD0 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = F04313F21DB662B700C79FD0 /* Dog.m */; };
+		F0B6AC621DA6825100D38F92 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B6AC611DA6825100D38F92 /* Fraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +27,13 @@
 
 /* Begin PBXFileReference section */
 		F0140E831DA3EF9D000AB73A /* HelloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0140E861DA3EF9D000AB73A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0140E861DA3EF9D000AB73A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = HelloWorld/main.m; sourceTree = "<group>"; };
+		F02C2F291DAE929A00CA211F /* Mammal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mammal.h; path = HelloWorld/Mammal.h; sourceTree = "<group>"; };
+		F02C2F2A1DAE929A00CA211F /* Mammal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Mammal.m; path = HelloWorld/Mammal.m; sourceTree = "<group>"; };
+		F04313F11DB662B700C79FD0 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Dog.h; path = HelloWorld/Dog.h; sourceTree = "<group>"; };
+		F04313F21DB662B700C79FD0 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Dog.m; path = HelloWorld/Dog.m; sourceTree = "<group>"; };
+		F0B6AC601DA6825100D38F92 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fraction.h; path = HelloWorld/Fraction.h; sourceTree = "<group>"; };
+		F0B6AC611DA6825100D38F92 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fraction.m; path = HelloWorld/Fraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +50,13 @@
 		F0140E7A1DA3EF9D000AB73A = {
 			isa = PBXGroup;
 			children = (
+				F04313F11DB662B700C79FD0 /* Dog.h */,
+				F04313F21DB662B700C79FD0 /* Dog.m */,
+				F0140E861DA3EF9D000AB73A /* main.m */,
+				F0B6AC601DA6825100D38F92 /* Fraction.h */,
+				F02C2F291DAE929A00CA211F /* Mammal.h */,
+				F02C2F2A1DAE929A00CA211F /* Mammal.m */,
+				F0B6AC611DA6825100D38F92 /* Fraction.m */,
 				F0140E851DA3EF9D000AB73A /* HelloWorld */,
 				F0140E841DA3EF9D000AB73A /* Products */,
 			);
@@ -57,7 +73,6 @@
 		F0140E851DA3EF9D000AB73A /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
-				F0140E861DA3EF9D000AB73A /* main.m */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F02C2F2B1DAE929A00CA211F /* Mammal.m in Sources */,
 				F0140E871DA3EF9D000AB73A /* main.m in Sources */,
+				F04313F31DB662B700C79FD0 /* Dog.m in Sources */,
+				F0B6AC621DA6825100D38F92 /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +257,7 @@
 				F0140E8C1DA3EF9D000AB73A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
